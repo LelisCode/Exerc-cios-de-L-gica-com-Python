@@ -6,7 +6,7 @@
 
 consumon= float(input("Digite o consumo de aguá da sua redisência em m3:"))
 
-
+ 
 if consumon <= pow(10, 3):
     valor = consumon * 22.38
     
