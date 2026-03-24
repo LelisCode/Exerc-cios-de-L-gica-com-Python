@@ -7,7 +7,6 @@
 #    6 - 'Sexta'
 #    7 - 'Sábado'
 
-# Usamos uma lista [] para armazenar os dicionários
 dias = [
     {"id": 1, "semanadia": "Segunda"},
     {"id": 2, "semanadia": "Terça"},
