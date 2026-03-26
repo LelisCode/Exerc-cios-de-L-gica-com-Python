@@ -11,7 +11,7 @@ c = n1 + n2 + n3 + n4 / 4
 #Processamentos
 if c >= 9:
     
-    ar="Aprovado"
+    ar="Aprovado"          ####Váriaveis dentro de if,elif e else para que aja mais de um retorno dependendo do input do usuário
     cl="A"
 elif c >= 7.5:
     
@@ -19,16 +19,16 @@ elif c >= 7.5:
     cl="B"
 
 elif c >= 6.0:
-     ar="Aprovado"
+     ar="Aprovado"         ####Váriaveis dentro de if,elif e else para que aja mais de um retorno dependendo do input do usuário
      cl="C"
 
 
 elif c >= 4.0:
-     ar="Reprovado"
+     ar="Reprovado"        ####Váriaveis dentro de if,elif e else para que aja mais de um retorno dependendo do input do usuário
      cl="D"
 
 else:
-     ar="Reprovado"
+     ar="Reprovado"   ####Váriaveis dentro de if,elif e else para que aja mais de um retorno dependendo do input do usuário
      cl="F"
      
 
