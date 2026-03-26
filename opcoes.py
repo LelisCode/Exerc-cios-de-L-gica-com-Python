@@ -29,15 +29,15 @@ if o3 == "Opção 1":
 
 elif o3 == "Opção 2":
 
-    o4=("Você selecionou a opção 2")    ##Váriavel de retorno  lógico
+    o4=("Você selecionou a opção 2")    
 elif o3 == "Opção 3":
 
-    o4("Você selecionou a opção 3") ##Váriavel de retorno  lógico
+    o4("Você selecionou a opção 3")
 elif o3 == "Sair":
 
-    o4=("Você selecionou sair")   ##Váriavel de retorno  lógico
+    o4=("Você selecionou sair")  
 else:
-    o4=("Opção inválida!!!") ##Váriavel de retorno  lógico
+    o4=("Opção inválida!!!") 
 
 #Saída
     print(f"{o4}")
