@@ -1,7 +1,10 @@
 # Desenvolva um programa que leia o valor (R$) de um salário qualquer e calcule e exiba o desconto com IRRF e INSS;
 
+#Entrada
 s = float(input("Digite o valor do salário (R$): "))
 
+#Processamento
+#Comparações lógicas para saber se o salário se enquadra nos requisitos do desconto
 if s <= 1412:
 
     c= s * 0.075
@@ -18,9 +21,10 @@ else:
 
 sa= s-c
 
-print(f"O desconto sofrido pelo seu salário de acordo com o imposto do INSS foi de {c} então o valor do seu salário será {sa}")
+print(f"O desconto sofrido pelo seu salário de acordo com o imposto do INSS foi de {c} então o valor do seu salário será {sa}") #Saída
 
-
+#Processamento
+#Comparações lógicas para saber se o salário se enquadra nos requisitos do desconto
 if sa <= 2112:
     r=0
 
@@ -38,5 +42,6 @@ else:
     r=sa*0.275
 
 sb= sa-r
-    
+
+#Saída
 print(f"O valor descontado do seu salário de acordo com o imposto IRRF sera de {r}, logo o total será {sb} ")
