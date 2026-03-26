@@ -1,4 +1,4 @@
-
+#Pergunte o turno da pessoa e retorne uma saudação
 
 print("Escolha uma opção de turno")
 print("Opções: M-Matutino, V-Vespertino, N-Noturno")
