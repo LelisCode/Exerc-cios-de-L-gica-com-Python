@@ -4,11 +4,12 @@
 # Se o consumo for menor ou igual a 50m3, então R$ 16,76 por m3
 # Se o consumo for acima dos 50m3, então R$ 17,46 por m3
 
-
+#Entrada
 consumop=float(input("Digite o consumo de aguá da redisência social em m3:"))
 
+#Processamento
 if consumop <= pow(10, 3) :
-    valor= consumop * 44.95
+    valor= consumop * 44.95   ##Calculo resultando numa váriavel necessária
 
 
 elif consumop <=  pow(20, 3) : 
@@ -22,4 +23,5 @@ elif consumop <=  pow(50, 3) :
 else:
     valor= consumop * 17.46 
 
+#Saída
 print(f"O consumo de água de seu prédio irá custar R$ {valor:.2f}")
