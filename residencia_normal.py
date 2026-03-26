@@ -10,7 +10,7 @@ consumon= float(input("Digite o consumo de aguá da sua redisência em m3:"))
 
 
 #Processamento
-#
+#Valores que utilizam o pow para estarem elevados ao número solicitado e comparadores para definir sua conta de acordo com o input do usuário
 if consumon <= pow(10, 3):
     valor = consumon * 22.38
     
