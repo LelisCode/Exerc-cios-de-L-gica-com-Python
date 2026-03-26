@@ -6,16 +6,22 @@
 # Triângulo Isósceles: quaisquer dois lados iguais;
 # Triângulo Escaleno: três lados diferentes;
 
+
+
+#Entrada
 l1 = int(input("Digite o primeiro lado do triângulo: "))
 l2 = int(input("Digite o segundo lado do triângulo: "))       
 l3 = int(input("Digite o terceiro lado do triângulo: "))  
 
-if l1 == l2 == l3:
+
+#Processamento    
+if l1 == l2 == l3:  # Uso de == para caso os lados sejam iguais
     t= " Equilátero"
-elif l1 != l2 != l3:
+elif l1 != l2 != l3: # Uso de != caso TODOS os lados estiverem diferentes
     t= "Escaleno"
-elif l1 != l2 and l1 != l3 and l2 != l3:
+elif l1 != l2 and l1 != l3 and l2 != l3:   # Uso de != para caso aja diferença de lados, and para caso de qualquer um estar certo
     t=" Isósceles"
 
-           
+
+#Saída
 print(f"Seu triângulo é {t}")
